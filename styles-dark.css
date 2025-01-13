@@ -12,7 +12,7 @@
     --text-secondary: #cccccc;
     --text-tertiary: #999999;
     --hover-color: #ffffff;
-    --first-section-spacing: 2rem;
+    --first-section-spacing: 1rem;
     --section-spacing: 3rem;
 }
 
@@ -90,8 +90,8 @@ body {
 
 .hero-section {
     text-align: center;
-    padding: var(--section-spacing) 0;
-    margin-bottom: var(--section-spacing);
+    padding: var(--first-section-spacing) 0;
+    margin-bottom: var(--first-section-spacing);
 }
 
 .hero-section h1 {
@@ -140,4 +140,4 @@ section h2 {
 }
 
 /* Footer Styles */
-.footer 
+.footer
