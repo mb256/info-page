@@ -103,7 +103,7 @@ body {
 
 .hero-section p {
     font-size: 1.25rem;
-    color: var(--text-secondary);
+    color: var(--text-primary);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -116,9 +116,16 @@ body {
 }
 
 #text-display {
-    height: 50px; /* Fixed height */
-    overflow: hidden; /* Prevent overflow */
-    transition: opacity 0.3s ease; /* Smooth transition */
+    height: 40px;
+    /* Fixed height */
+    overflow: hidden;
+    /* Prevent overflow */
+    transition: opacity 0.3s ease;
+    /* Smooth transition */
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-section,
