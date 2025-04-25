@@ -82,7 +82,7 @@
 
             <div class="portfolio-content">
                 <div style="display: flex; align-items: center">
-                    <div style="flex: 3;">
+                    <div style="flex: 2;">
                         <!-- Add your content here -->
                         Simple usecase of Flet Python framework with live demonstration on github pages.
                         It shows how to generate Static Web Page content in pure Python.
@@ -100,31 +100,30 @@
             </div>
         </section>
 
+        <!-- use this section as an template for other -->
         <section id="portfolio" class="portfolio-section">
-            <h2>Vtip list</h2>
-            <h5>Android app in Kotlin</h5>
-            <br />
-            <div class="portfolio-content">
-                <!-- Add your content here -->
-                Basic Android App in Kotlin language to display jokes in few basic categories.<br />
-                <br />
-                <ul>
-                    <li>Source code: <a href="https://github.com/mb256/VtipList">Source code</a></li>
+            <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+                <!-- First Column -->
+                <div style="flex: 2; min-width: 300px;">
+                    <h2>Vtip list</h2>
+                    <h5>Android app in Kotlin</h5>
+                    
+                    Basic Android App in Kotlin language to display jokes in a few basic categories.
+                    <br /><br />
+
                     <ul>
+                        <li>Source code: <a href="https://github.com/mb256/VtipList">Source code</a></li>
+                    </ul>
+                </div>
+                <!-- Second Column -->
+                <div style="flex: 1; min-width: 100px; display: flex; justify-content: space-around; gap: 5px;">
+                    <img src="img/vtip_list_main.jpg" alt="Main Project Image" style="max-width: 120px; height: auto;">
+                    <img src="img/vtip_list_cat.jpg" alt="Category Image" style="max-width: 120px; height: auto;">
+                    <!-- <img src="img/vtip_list_extra.jpg" alt="Extra Image" style="max-width: 30%; height: auto;"> -->
+                </div>
             </div>
         </section>
-        <section id="portfolio" class="portfolio-section">
-            <h2>Galaxy Run</h2>
-            <h5>Android Game in Python+Kivy</h5>
-            <br />
-            <div class="portfolio-content">
-                <!-- Add your content here -->
-                Small Android Game done as exploration work if Kivy Python framework is suitable for Android app
-                development.<br />
-                <br />
-                <li>Source code: <a href="https://github.com/MichalBroucek/galaxyrun">Source code</a></li>
-            </div>
-        </section>
+                
         <section id="portfolio" class="portfolio-section">
             <h2>CAN Send Py</h2>
             <h5>Sending J1939 CAN Bus messages via Raspberry Pi CAN shield</h5>
