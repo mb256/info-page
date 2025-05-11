@@ -81,6 +81,25 @@ body {
     width: 100%;
 }
 
+#about {
+    scroll-margin-top: 100px; /* Adjust this value to match your header height */
+}
+
+#skills {
+    scroll-margin-top: 100px; /* Adjust this value to match your header height */
+}
+
+#portfolio {
+    scroll-margin-top: 100px; /* Adjust this value to match your header height */
+}
+
+.logo img {
+    height: 90px; /* Set the desired image height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits within its container */
+    margin: -20px 0; /* Adjust negative margins to prevent header size increase */
+}
+
 /* Main Content Styles */
 .main-content {
     max-width: 1200px;
