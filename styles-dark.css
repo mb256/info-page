@@ -208,3 +208,11 @@ section h2 {
 .portfolio-section a:hover::after {
     background: linear-gradient(90deg, #fff 60%, transparent 100%);
 }
+
+.portfolio-section {
+    color: var(--text-secondary);
+}
+
+.portfolio-section h5 {
+    color: var(--text-primary);
+}
