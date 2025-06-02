@@ -6,6 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Personal Landing Page</title>
     <link rel="stylesheet" href="styles-dark.css">
+    <style>
+        /* Responsive portfolio layout */
+        .portfolio-flex {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        @media (max-width: 700px) {
+            .portfolio-flex {
+                flex-direction: column;
+            }
+
+            .portfolio-flex>div {
+                min-width: 0 !important;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .portfolio-flex img {
+                max-width: 100% !important;
+                height: auto !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -45,7 +71,7 @@
             <div class="about-content">
                 <!-- Add your content here -->
                 <p>
-                    Father of two, husband of one. Almost middle-aged engineer 
+                    Father of two, husband of one. Almost middle-aged engineer
                     with experience in software development and team management. <br/>
                     I try to explore new technologies and keep up to date (unsuccessfully :-) ) with tech trends.<br/>
                     Here are some of my exploratory projects and use cases I have done in my free time (which is very, very limited).
@@ -56,7 +82,7 @@
         <!-- Portfolio Section -->
         
         <section id="portfolio" class="portfolio-section">
-            <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+            <div class="portfolio-flex">
                 <!-- First Column -->
                 <div style="flex: 2; min-width: 300px;">
                     <h2>Better Daily</h2>
@@ -86,7 +112,7 @@
 
         <!-- use this section as an template for other -->
         <section id="portfolio" class="portfolio-section">
-            <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+            <div class="portfolio-flex">
                 <!-- First Column -->
                 <div style="flex: 2; min-width: 300px;">
                     <h2>Vtip list</h2>
@@ -113,7 +139,7 @@
         </section>
 
         <section id="portfolio" class="portfolio-section">
-            <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+            <div class="portfolio-flex">
                 <!-- First Column -->
                 <div style="flex: 2; min-width: 300px;">
                     <h2>Galaxy run</h2>
